@@ -1,31 +1,70 @@
-Paradigm Shift by HTML5 UP
-html5up.net | @ajlkn
-Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+# Portfolio
 
+This project is a personal portfolio website built with React. It showcases projects, skills, and other professional information in a visually appealing and user-friendly format.
 
-Say hello to Paradigm Shift, my first addition to HTML5 UP in more than a year (!!!).
-Took things in a slightly different direction with this one, partly to mess with CSS
-grid (which this one relies on pretty heavily) but mostly to get back to making weirder
-and more experimental designs/layouts. Anyway, hope you dig it, and thanks for the
-continued support despite the lack of updates :)
+## Features
 
-Demo images* courtesy of Unsplash, a radtastic collection of CC0 (public domain) images
-you can use for pretty much whatever.
+- **Home Page**: Introduction and brief overview.
+- **About Page**: Detailed information about skills, experience, and education.
+- **Projects Page**: Display of various projects with descriptions and links.
+- **Contact Page**: Contact form for visitors to reach out.
+- **Responsive Design**: Optimized for both desktop and mobile viewing.
 
-(* = not included)
+## Technologies Used
 
-AJ
-aj@lkn.io | @ajlkn
+- HTML5
+- CSS3
+- JavaScript
+- React
 
+## Installation
 
-Credits:
+To run this application locally, follow these steps:
 
-	Demo Images:
-		Unsplash (unsplash.com)
+1. Clone this repository:
 
-	Icons:
-		Font Awesome (fontawesome.io)
+    ```bash
+    git clone link
+    ```
 
-	Other:
-		jQuery (jquery.com)
-		Responsive Tools (github.com/ajlkn/responsive-tools)
+2. Navigate to the project directory:
+
+    ```bash
+    cd Portfolio
+    ```
+
+3. Install the packages using the command:
+
+    ```bash
+    npm install
+    ```
+
+4. Start the development server:
+
+    ```bash
+    npm start
+    ```
+
+## Project Structure
+
+The project structure is organized as follows:
+
+- **public/**: Contains the public assets and HTML file.
+- **src/**: Contains the source code for the React application.
+  - **components/**: Reusable components used across the application.
+  - **pages/**: Individual page components (Home, About, Projects, Contact).
+  - **App.js**: Main application component.
+  - **index.js**: Entry point for the React application.
+
+## Contributing
+
+Contributions are welcome! If you'd like to add new features, improve existing ones, or fix any bugs, feel free to fork the repository and submit a pull request.
+
+## License
+
+This project is licensed under the Apache License.
+
+## Acknowledgments
+
+- Inspiration and guidance from various online tutorials and resources.
+- Special thanks to the open-source community for their invaluable resources and tools.
